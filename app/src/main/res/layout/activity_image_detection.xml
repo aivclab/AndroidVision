@@ -33,6 +33,19 @@
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintTop_toTopOf="parent">
   </dk.aivclab.demo.usecases.detection.views.OverlayView>
+  <Button
+      android:id="@+id/activity_camera_button"
+      style="@style/ImageClassificationFpsMsText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      android:elevation="1dp"
+      android:visibility="invisible"
+      app:layout_constraintTop_toBottomOf="@id/toolbar"
+      app:layout_constraintLeft_toLeftOf="@id/toolbar">
+
+  </Button>
 
   <TextView
       android:id="@+id/activity_ms_text"
@@ -43,8 +56,8 @@
       android:layout_marginBottom="8dp"
       android:elevation="1dp"
       android:visibility="invisible"
-      app:layout_constraintTop_toTopOf="@id/activity_image_preview_view"
-      app:layout_constraintRight_toRightOf="@id/activity_image_preview_view"/>
+      app:layout_constraintTop_toBottomOf="@id/toolbar"
+      app:layout_constraintRight_toRightOf="@id/toolbar"/>
 
   <TextView
       android:id="@+id/activity_fps_text"
@@ -55,7 +68,7 @@
       android:layout_marginBottom="8dp"
       android:elevation="1dp"
       android:visibility="invisible"
-      app:layout_constraintTop_toTopOf="@id/activity_image_preview_view"
+      app:layout_constraintTop_toBottomOf="@id/toolbar"
       app:layout_constraintRight_toLeftOf="@id/activity_ms_text"/>
 
   <TextView
@@ -67,7 +80,7 @@
       android:layout_marginBottom="8dp"
       android:elevation="1dp"
       android:visibility="invisible"
-      app:layout_constraintTop_toTopOf="@id/activity_image_preview_view"
+      app:layout_constraintTop_toBottomOf="@id/toolbar"
       app:layout_constraintRight_toLeftOf="@id/activity_fps_text"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,8 @@
 
     <activity
         android:name=".usecases.classification.ClassificationActivity"
-        android:label="@string/vision_app_title">
+        android:label="@string/vision_app_title"
+        android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <action android:name="android.intent.action.VIEW"/>

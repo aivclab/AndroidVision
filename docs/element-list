@@ -1,0 +1,17 @@
+dk.aivclab.demo
+dk.aivclab.demo.usecases.classification
+dk.aivclab.demo.usecases.classification.categories
+dk.aivclab.demo.usecases.classification.utilities
+dk.aivclab.demo.usecases.classification.views
+dk.aivclab.demo.usecases.detection
+dk.aivclab.demo.usecases.detection.categories
+dk.aivclab.demo.usecases.detection.categories.exclude
+dk.aivclab.demo.usecases.detection.utilities
+dk.aivclab.demo.usecases.detection.utilities.drawing
+dk.aivclab.demo.usecases.detection.utilities.exclude
+dk.aivclab.demo.usecases.detection.views
+dk.aivclab.demo.usecases.segmentation
+dk.aivclab.demo.usecases.segmentation.categories
+dk.aivclab.demo.usecases.segmentation.utilities
+dk.aivclab.demo.utilities
+dk.aivclab.demo.utilities.deprecated
